@@ -10,7 +10,7 @@ class Question extends Model
     use SoftDeletes;
 
     protected $fillable = [
-        'contest_id', 'question_text', 'type'
+        'contest_id', 'question_text', 'type', 'points'
     ];
 
     public function contest(): \Illuminate\Database\Eloquent\Relations\BelongsTo

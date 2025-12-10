@@ -1,9 +1,7 @@
 <?php
 
-namespace App\Http\Controllers\APIs\Auth;
+namespace App\Http\Controllers\APIs;
 
-use App\Http\Controllers\APIs\BaseController;
-use App\Http\Controllers\APIs\Notifications\NotificationController;
 use App\Http\Resources\AuthenticationResource;
 use App\Models\User;
 use Exception;
